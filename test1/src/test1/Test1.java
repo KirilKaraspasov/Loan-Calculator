@@ -20,6 +20,8 @@ public class Test1 {
         else
 
             System.out.println("Invalid day!");
+            System.out.println("exoo");
+
 
 
 
