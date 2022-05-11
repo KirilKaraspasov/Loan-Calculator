@@ -17,7 +17,7 @@ public class Calculator {
         double yearInterest = interestOfloan / 12;
 
 
-        double totalSum = sumOfLoan + yearInterest;
+        double totalSum = sumOfLoan + (yearInterest * lenghtOfLoan);
         double totalInterestOfLoan = lenghtOfLoan * yearInterest;
         double sumPerMonth = (sumOfLoan + totalInterestOfLoan) / lenghtOfLoan ;
 
