@@ -14,7 +14,7 @@ public class Calculator {
         double lenghtOfLoan = Double.parseDouble(scanner.nextLine());
         System.out.println("Въведете годишна лихва на заема");
         double interestOfloan = Double.parseDouble(scanner.nextLine());
-        double yearInterest = interestOfloan / 12;
+        double yearInterest = ((interestOfloan * sumOfLoan) * 0.01) / 12;
 
 
         double totalSum = sumOfLoan + (yearInterest * lenghtOfLoan);
@@ -22,13 +22,13 @@ public class Calculator {
         double sumPerMonth = (sumOfLoan + totalInterestOfLoan) / lenghtOfLoan ;
 
 
-        System.out.printf("Месечна вноска");
+        System.out.printf(" Месечна вноска ");
         System.out.println(sumPerMonth);
 
-        System.out.printf("Общо лихва за период");
+        System.out.printf(" Общо лихва за период ");
         System.out.println(totalInterestOfLoan);
 
-        System.out.printf("Обща сума за погасяване");
+        System.out.printf(" Обща сума за погасяване ");
         System.out.println(totalSum);
 
 
