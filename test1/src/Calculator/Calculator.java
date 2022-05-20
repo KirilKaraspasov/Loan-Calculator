@@ -30,6 +30,7 @@ public class Calculator {
 
         System.out.printf(" Обща сума за погасяване ");
         System.out.println(totalSum);
+        System.out.println(totalSum);
 
 
     }
